@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="271dp"
+		android:layout_height="199dp"
+		android:layout_marginTop="30dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@drawable/personne" />
+
+	<TextView
+		android:id="@+id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/nom"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		android:layout_marginTop="30dp"
+		android:textSize="30sp"
+		app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+	<ImageView
+		android:id="@+id/imageView2"
+		android:layout_width="75dp"
+		android:layout_height="68dp"
+		android:layout_margin="30dp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView2"
+		app:srcCompat="@drawable/maison" />
+
+	<TextView
+		android:id="@+id/adresse"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/adresse"
+		android:textSize="15sp"
+		android:layout_marginStart="30dp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+		app:layout_constraintStart_toEndOf="@+id/imageView2"
+		app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+	<ImageView
+		android:id="@+id/imageView3"
+		android:layout_width="75dp"
+		android:layout_height="68dp"
+		android:layout_marginTop="20dp"
+		app:layout_constraintEnd_toEndOf="@+id/imageView2"
+		app:layout_constraintStart_toStartOf="@+id/imageView2"
+		app:layout_constraintTop_toBottomOf="@+id/imageView2"
+		app:srcCompat="@drawable/email" />
+
+	<TextView
+		android:id="@+id/textView4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/mail_alex"
+		android:layout_margin="30dp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+		app:layout_constraintStart_toEndOf="@+id/imageView3"
+		app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+	<ImageView
+		android:id="@+id/imageView4"
+		android:layout_width="75dp"
+		android:layout_height="68dp"
+		android:layout_marginBottom="68dp"
+		android:layout_marginTop="20dp"
+		app:layout_constraintEnd_toEndOf="@+id/imageView3"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="@+id/imageView3"
+		app:layout_constraintTop_toBottomOf="@+id/imageView3"
+		app:srcCompat="@drawable/telephone" />
+
+	<TextView
+		android:id="@+id/textView5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/numero_tel_alex"
+		android:layout_margin="30dp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+		app:layout_constraintStart_toEndOf="@+id/imageView4"
+		app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+	<ImageView
+		android:id="@+id/imageView5"
+		android:layout_width="75dp"
+		android:layout_height="68dp"
+		android:layout_marginBottom="24dp"
+		android:layout_marginTop="20dp"
+		app:layout_constraintEnd_toEndOf="@+id/imageView4"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="@+id/imageView4"
+		app:layout_constraintTop_toBottomOf="@+id/imageView4"
+		app:srcCompat="@drawable/calendrier" />
+
+	<TextView
+		android:id="@+id/textView6"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/anniv_alex"
+		android:layout_margin="30dp"
+		app:layout_constraintBottom_toBottomOf="@+id/imageView5"
+		app:layout_constraintStart_toEndOf="@+id/imageView5"
+		app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

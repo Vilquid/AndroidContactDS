@@ -1,3 +1,10 @@
 <resources>
 	<string name="app_name">AndroidContactDS</string>
+	<string name="nom">Alexandra Guillot</string>
+	<string name="adresse">2976 rue Gasparin</string>
+	<string name="mail_alex">alex.g@gmail.com</string>
+	<string name="numero_tel_alex">06 48 65 35 08</string>
+	<string name="anniv_alex">10/02/1953</string>
+
+
 </resources>
