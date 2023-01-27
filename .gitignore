@@ -23,5 +23,6 @@
 hs_err_pid*
 
 # IDEA
-#.idea
+.idea
 #!/.idea/
+key.jks
